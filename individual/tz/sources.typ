@@ -1,6 +1,6 @@
 // Порядок: кириллица, латиница, по заглавию.
 #let sources = (
-  (id: "g101", body: [ГОСТ 19.101-77. Единая система программной документации. Виды программ и программных документов.]),
+  (id: "g101", body: [ГОСТ 19.101-2024. Единая система программной документации. Виды программ и программных документов.]),
   (id: "g102", body: [ГОСТ 19.102-77. Единая система программной документации. Стадии разработки.]),
   (id: "g103", body: [ГОСТ 19.103-77. Единая система программной документации. Обозначение программ и программных документов.]),
   (id: "g104", body: [ГОСТ 19.104-78. Единая система программной документации. Основные надписи.]),
@@ -14,7 +14,10 @@
   (id: "g603", body: [ГОСТ 19.603-78. Единая система программной документации. Общие правила внесения изменений.]),
   (id: "g604", body: [ГОСТ 19.604-78. Единая система программной документации. Правила внесения изменений в программные документы, выполненные печатным способом.]),
   (id: "instruction", body: [Инструкция по подготовке документов к защите тем ВКР на образовательной программе «Программная инженерия» в 2026/27 учебном году / НИУ ВШЭ. — Москва, 2026. — Учебно-методический материал, размещённый в SmartLMS.]),
-  (id: "bibliography", body: [Методические указания по оформлению списка использованных источников и ссылок в текстах / НИУ ВШЭ, Факультет компьютерных наук. — Москва, 2025. — 18 с.])
+  (id: "google2019", body: [Wilkes J. ClusterData 2019 traces / Google. — URL: #link("https://github.com/google/cluster-data/blob/master/ClusterData2019.md") (дата обращения: 17.11.2026).]),
+  (id: "predictions", body: [Buchbinder N., Fairstein Y., Mellou K., Menache I., Naor J. Online Virtual Machine Allocation with Predictions. — 2020. — arXiv:2011.06250, версия 1. — URL: #link("https://arxiv.org/abs/2011.06250v1") (дата обращения: 17.11.2026).]),
+  (id: "statsmodels", body: [statsmodels.tsa.holtwinters.ExponentialSmoothing #text("//") statsmodels: документация. — URL: #link("https://www.statsmodels.org/dev/generated/statsmodels.tsa.holtwinters.ExponentialSmoothing.html") (дата обращения: 17.11.2026).]),
+  (id: "vtgan", body: [Maiyza A. I., Hassan H. A., Sheta W. M., Banawan K., Korany N. O. VTGAN based proactive VM consolidation in cloud data centers using value and trend approaches #text("//") Scientific Reports. — 2025. — Vol. 15. — Article 20133. — DOI: #link("https://doi.org/10.1038/s41598-025-04757-z") (дата обращения: 17.11.2026).])
 )
 
 #let cite-source(id) = {
