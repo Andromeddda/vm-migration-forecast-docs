@@ -1,0 +1,7 @@
+{
+  "tz": {
+    "title": "Техническое задание",
+    "source": "individual/tz/main.typ",
+    "output": "build/tz.pdf"
+  }
+}
